@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Clinique</title>
+ <link th:href="@{../../webjars/bootstrap/4.0.0/css/bootstrap.min.css}" rel="stylesheet" />
+ <script src="../../webjars/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <script src="../../webjars/jquery/3.0.0/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h2>Clinique</h2>
+  
+  <form>
+   
+   <a th:href="@{/clients/list}" class="btn btn-primary" 
+   role="button">Clients</a>
+   
+   <a th:href="@{/medecins/list}" class="btn btn-primary" 
+   role="button">Medecins</a>
+   
+  </form:form>
+  
+ </div>
+
+</body>
+</html>
