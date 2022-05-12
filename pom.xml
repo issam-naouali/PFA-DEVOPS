@@ -54,14 +54,10 @@
 	<distributionManagement>
         <repository>
           <id>nexus</id>
-          <name>KC Tech Releases Nexus Repository</name>
-          <url>http://192.168.126.140:8081/repository/kcmaven-release/</url>
+          <name>Mixed Nexus Repository</name>
+          <url>http://192.168.126.140:8081/repository/maven-central-repository/</url>
         </repository>
-        <snapshotRepository>
-          <id>nexus</id>
-          <name>KC Tech Snapshot Nexus Repository </name>
-           <url>http://192.168.126.140:8081/repository/kcmaven-snapshot/</url>
-        </snapshotRepository>
+        
    </distributionManagement>
 
 	<build>
