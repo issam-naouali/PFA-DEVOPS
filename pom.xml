@@ -50,15 +50,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
-	<distributionManagement>
-        <repository>
-          <id>nexus</id>
-          <name>Mixed Nexus Repository</name>
-          <url>http://192.168.126.140:8081/repository/maven-central-repository/</url>
-        </repository>
-        
-   </distributionManagement>
 
 	<build>
 		<plugins>
@@ -68,5 +59,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+   <snapshotRepository>
+      <id>1234</id>
+      <url>http://192.168.126.140:8081/repository/maven-central-repository/</url>
+   </snapshotRepository>
+</distributionManagement>
+
 
 </project>
