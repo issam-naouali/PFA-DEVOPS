@@ -62,6 +62,7 @@
 	<distributionManagement>
    <snapshotRepository>
       <id>maven-central-repository</id>
+       <name>maven-central-repository</name>
       <url>http://192.168.126.140:8081/repository/maven-central-repository/</url>
    </snapshotRepository>
 </distributionManagement>
